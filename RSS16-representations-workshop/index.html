@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>ICRA 2016 Workshop on Marine Robot Localization and Navigation</title>
+    <title>RSS 2016 Workshop: Geometry and Beyond: Representations, Physics, and Understanding for Robotics</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@
       <div class="main-body">
         <h1>ICRA 2016 Workshop on Marine Robot Localization and Navigation</h1>
 
-        <p class="lead">This proposed half-day workshop considers past, present,
+        <p class="lead">This proposed full-day workshop considers past, present,
         and future challenges for robot localization and navigation particular
         to marine environments.</p>
 
@@ -71,46 +71,8 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-            <p>Recent workshops have attempted to address the question of if,
-            and under what conditions, should the problem of mobile robot
-            navigation in an unknown environment be considered solved. While in
-            certain structured environments, a case can be made that this is so,
-            one particular case where there is still massive amounts of work to
-            be done is in the marine context. Historical approaches to marine
-            robot navigation and localization are either expensive (for example
-            state of the art inertial navigation systems) or cumbersome (for
-            example pre-deploying long baseline transponder networks).</p>
-
-            <p>The major challenges in marine robotics context are: 1) The
-            underwater environment is hard to sense and significantly less
-            research has been undertaken to develop algorithms for processing of
-            underwater sensor modalities such as sonar as compared with
-            terrestrial sensors such as cameras 2) The underwater environment is
-            often less structured that the terrestrial case - even if we had
-            good sensors there still would not be much to use for accurate
-            navigation 3) Underwater communications is challenging - recent
-            results in optical underwater communications are challenging however
-            to communicate for any distance larger than 150m requires the use of
-            acoustics which is very low bandwidth, unreliable and high
-            latency.</p>
-
-            <p>The overall objective of the workshop is gather global experts on
-            marine robotics navigation and identify areas of particular promise
-            to overcome these challenges. Similar recent workshops on marine
-            robotics have focused on control and autonomy but largely
-            sidestepped the problem of navigation and localization.</p>
-
-            <ul>
-              <li>New technologies and algorithms for cheaper / better marine
-              vehicle navigation</li>
-              <li>Marine robot perception and mapping Simultaneous
-              localization and mapping in marine environments</li> 
-              <li>Cooperative localization in marine environments Marine robot
-              belief space planning</li>
-              <li>Demonstrations of advanced navigation and localization in the
-              field-particularly in the case of long-term or multi-robot
-              experiments.</li>
-            </ul>
+	  <p>This workshop brings together researchers from robotics, computer vision, computer graphics, machine learning, and AI, to discuss fundamental questions in robot perception: how should a robot represent the world? How can we design the best possible representation for a specific task? How can we unify geometric reconstruction and semantic mapping? Robotic perception has been so far dominated by mapping algorithms that build primitive geometric representations of the environment like occupancy grids, meshes, or point clouds. While the community has made great progress in making 3D reconstruction work in real world problems, current algorithms and representations are still unable to capture high-level structure in the environment. Existing mapping algorithms do not take into account the physics of the scene (e.g., pedestrians in a crowd typically walk on the ground, rather than fly), and decouple scene reconstruction from scene understanding, while a unified approach would be largely beneficial (e.g., identifying objects helps reasoning about their relations). The use of more expressive representations would impact many open problems including map compressions for long term navigation, robust data association, human robot interaction, and object manipulation. This workshop aims to bring forward the latest breakthroughs and cutting edge research on robot perception and map representations, and identify challenges and future research directions for the community. 
+	 </p>
 
         </div> 
       </div>
@@ -129,119 +91,90 @@
                   <td>Activity</td>
               </tr>
               <tr>
-                  <td>15 minutes</td>
+                  <td>9:00 - 9:30</td>
                   <td>Welcome</td>
               </tr>
               <tr>
-                  <td>45 minutes</td>
-                  <td>John Leonard</br>
-                  <i>A Historical Perspective on Autonomous Underwater Vehicle
-                      Navigation</i></br>
-                  <b>Abstract:</b>This talk will provide a concise historical
-                  review of major approaches to Autonomous Underwater Vehicle
-                  navigation, with a focus on recent progress and open research
-                  questions, such as navigation in polar regions and close-range
-                  operations for intervention and inspection tasks. We will
-                  review the major sensing modalities (acoustic beacons,
-                  INS/DVL, sonar, vision) and the major inference techniques
-                  (filtering and pose graph optimization). We will also survey
-                  major applications including surveillance, inspection,
-                  environmental monitoring, and intervention.
+                  <td>9:30 - 10:00</td>
+                  <td> Keynote #1 - Dieter Fox
                   </td>
               </tr>
               <tr>
-                  <td>45 minutes</td>
-                  <td>James Kinsey</br>
-                  <i>Toward Low-Cost, Long-Duration Underwater Navigation:
-                      Recent Sensing and Algorithms Advances and Applying them
-                      to Future Ocean Missions</i></br>
-                  <b>Abstract:</b> Advances in sensing and state estimation have
-                  previously transformed how we operate robots in the underwater
-                  domain and enabled previously unachievable missions. For
-                  example, the emergence of Doppler Velocity Logs and
-                  Fiber-optic Gyroscopes in the late 1990s revolutionized
-                  science, military, commercial, and archaeology applications in
-                  the underwater domain. This talk builds on the spirit of these
-                  prior successes by highlighting more recent advances in
-                  underwater localization that emphasize both new sensing
-                  modalities, such as MEMS sensors and acoustic modems, and new
-                  algorithmic methods. The emphasis will be on methods that
-                  improve the localization of low-cost underwater robots, extend
-                  the endurance of deep-diving long-range AUVs, or enable us to
-                  operate in extremely remote environs (such as the Arctic
-                  Ocean).
+                  <td>10:00 - 10:30</td>
+                  <td> Keynote #2 - Oliver Brock
                   </td>
               </tr>
               <tr>
-                  <td>45 minutes</td>
-                  <td>Stefan Williams</br>
-                  <i>Title of talk</i></br>
-                  <b>Abstract:</b>
+                  <td>10:30 - 11:00</td>
+                  <td> Keynote #3 - George Konidaris
                   </td>
               </tr>
               <tr>
-                  <td>20 minutes</td>
-                  <td>Poster spotlights</td>
-              </tr>
-              <tr>
-                  <td>45 minutes</td>
-                  <td>Coffee break/Poster session</td>
-              </tr>
-              <tr>
-                  <td>45 minutes</td>
-                  <td>Rafael Garcia</br>
-                  <i>Challenges for underwater perception and mapping using
-                      computer vision</i></br>
-                  <p><b>Abstract:</b>The characteristics of the underwater
-                  environment offer several challenges for using off-the-shelf
-                  computer vision, mainly due to the significant attenuation and
-                  scattering of visible light. Commonly, the underwater images
-                  acquired by a robot suffer from lack of contrast, blurring and
-                  strong moving shadows from artificial illumination. Moreover,
-                  light attenuation does not allow images to be taken from a
-                  large distance.</p>
-
-                  <p>However, using the convenient image enhancement techniques,
-                  and under the adequate circumstances, we can successfully
-                  restore underwater images, thus enabling the possibility of
-                  using them for perception and mapping. In this talk we will
-                  see how to overcome the different problems associated to the
-                  interaction between light and water to successfully explore
-                  and map unknown areas of the seafloor.</p>
+                  <td>11:00 - 11:30</td>
+                  <td> COFFEE BREAK
                   </td>
               </tr>
               <tr>
-                  <td>45 minutes</td>
-                  <td>Michael Kaess</br>
-                  <i>Localization and Mapping in Confined Areas with a Hovering
-                      AUV</i></br>
-                  <b>Abstract:</b>
+                  <td>11:30 - 12:00</td>
+                  <td> Keynote #4 - Stefano Soatto
                   </td>
               </tr>
               <tr>
-                  <td>30 minutes</td>
-                  <td>Discussion/Concluding remarks</br>
+                  <td>12:00 - 12:30</td>
+                  <td> Morning Wrap-up
+                  </td>
+              </tr> 
+              <tr>
+                  <td>12:30 - 2:00</td>
+                  <td> LUNCH
+                  </td>
+              </tr>
+              <tr>
+                  <td>2:00 - 2:30</td>
+                  <td> Keynote #5 - 
+                  </td>
+              </tr>
+              <tr>
+                  <td>2:30 - 3:00</td>
+                  <td> Keynote #6 - 
+                  </td>
+              </tr>
+              <tr>
+                  <td>3:00 - 3:30</td>
+                  <td> Poster Spotlights
+                  </td>
+              </tr>
+              <tr>
+                  <td>3:30 - 4:00</td>
+                  <td> COFFEE BREAK
+                  </td>
+              </tr>
+              <tr>
+                  <td>4:00 - 4:30</td>
+                  <td> Poster Session
+                  </td>
+              </tr>
+              <tr>
+                  <td>4:30 - 5:30</td>
+                  <td> Panel Discussion
                   </td>
               </tr>
           </table>
-
-          <p>All talks include 10 minutes for questions.</p>
         </div> 
       </div>
 
       <!--speakers-->
       <div class="row page-header">
         <div class="col-sm-12">
-          <h2 id="speakers" style="padding-top: 70px; margin-top: -70px;">Speakers</h2>
+          <h2 id="speakers" style="padding-top: 70px; margin-top: -70px;">Confirmed Speakers</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
-            <p><b>James Kinsey</b>, Woods Hole Oceanographic Institution</p>
-            <p><b>John Leonard</b>, Massachusetts Institute of Technology</p>
-            <p><b>Stefan Williams</b>, Australian Centre for Field Robotics, University of Sydney</p>
-            <p><b>Rafael Garcia</b>, University of Girona</p>
-            <p><b>Michael Kaess</b>, Carnegie Mellon University</p>
+            <p><b>Dieter Fox</b>, University of Washington</p>
+            <p><b>George Konidaris</b>, Duke University</p>
+            <p><b>Oliver Brock</b>, Technical University of Berlin</p>
+            <p><b>Stefano Soatto</b>, UCLA</p>
         </div> 
       </div>
 
@@ -254,17 +187,13 @@
       <div class="row">
         <div class="col-sm-12">
             <p>We are soliciting extended abstracts/full papers describing novel
-            work in robot marine systems. Accepted submissions will give
-            a short spotlight talk and present their work in poster format.
-            Teledyne Marine has generously sponsored the poster competition and
-            is offering $500 (USD) for first prize.</p>
+            work in robot representations. Accepted submissions will give
+            a short spotlight talk and present their work in poster format.</p>
 
             <p>Papers may be emailed to the orgainizers. Submissions should
-            conform to standard ICRA formatting. Accepted papers will be
+            conform to standard RSS formatting. Accepted papers will be
             published on the workshop website.</p>
 
-            <p><a href="http://www.teledynemarine.com"><img
-            src="imgs/teledynemarine.jpg" alt="Teledyne Marine"></a></p>
         </div> 
       </div>
 
@@ -276,17 +205,24 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
+            <p>Enric Galceran, ETH Zuirch</br>
+            Email: enricg@ethz.ch</br>
+            <a href="https://www.mavt.ethz.ch/the-department/people/person-detail.html?persid=215484">Web</a></p>
+            <p>Luca Carlone, MIT</br>
+            Email: lcarlone@mit.edu</br>
+            <a href="http://www.lucacarlone.com">Web</a></p>
+            <p>Gian Diego Tipaldo, University of Freiburg</br>
+            Email: tipaldi@cs.uni-freiburg.de</br>
+            <a href="http://www2.informatik.uni-freiburg.de/~tipaldi/home.html">Web</a></p>
             <p>Liam Paull, MIT</br>
             Email: lpaull@csail.mit.edu</br>
-            <a href="http://people.csail.mit.edu/lpaull/">Web</a></p>
-
-            <p>Jeff Walls, University of Michigan</br>
-            Email: jmwalls@umich.edu</br>
-            <a href="http://robots.engin.umich.edu/~jmwalls">Web</a></p>
-
-            <p>James Kinsey, Woods Hole Oceanographic Institution</br>
-            Email: jkinsey@whoi.edu</br>
-            <a href="http://www.whoi.edu/website/jkinsey/">Web</a></p>
+            <a href="http://people.csail.mit.edu/lpaull">Web</a></p>
+            <p>Andrea Censi, MIT</br>
+            Email: censi@mit.edu</br>
+            <a href="http://censi.mit.edu">Web</a></p>
+            <p>Cesar Cadena, (ETH Zurich)</br>
+            Email: cesarcadena.lerma@gmail.com</br>
+            <a href="http://cs.adelaide.edu.au/~cesar/">Web</a></p>
         </div> 
       </div>
 
