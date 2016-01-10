@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="ICRA2016 Marine Autonomy Workshop">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>ICRA 2016 Workshop on Marine Robot Localization and Navigation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#posters">Posters</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase">
+
+      <div class="main-body">
+        <h1>ICRA 2016 Workshop on Marine Robot Localization and Navigation</h1>
+
+        <p class="lead">This proposed half-day workshop considers past, present,
+        and future challenges for robot localization and navigation particular
+        to marine environments.</p>
+
+        <figure>
+            <img src="imgs/overview.png" width="75%"></a>
+            <figcaption>Image courtesy of <a
+            href="http://oceanai.mit.edu/mikerb/pmwiki/pmwiki.php">Mike Benjamin</a></figcaption>
+        </figure>
+      </div>
+
+      <!--summary-->
+      <div class="row page-header">
+        <div class="col-sm-12">
+          <h2 id="summary" style="padding-top: 70px; margin-top: -70px;">Summary</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <p>Recent workshops have attempted to address the question of if,
+            and under what conditions, should the problem of mobile robot
+            navigation in an unknown environment be considered solved. While in
+            certain structured environments, a case can be made that this is so,
+            one particular case where there is still massive amounts of work to
+            be done is in the marine context. Historical approaches to marine
+            robot navigation and localization are either expensive (for example
+            state of the art inertial navigation systems) or cumbersome (for
+            example pre-deploying long baseline transponder networks).</p>
+
+            <p>The major challenges in marine robotics context are: 1) The
+            underwater environment is hard to sense and significantly less
+            research has been undertaken to develop algorithms for processing of
+            underwater sensor modalities such as sonar as compared with
+            terrestrial sensors such as cameras 2) The underwater environment is
+            often less structured that the terrestrial case - even if we had
+            good sensors there still would not be much to use for accurate
+            navigation 3) Underwater communications is challenging - recent
+            results in optical underwater communications are challenging however
+            to communicate for any distance larger than 150m requires the use of
+            acoustics which is very low bandwidth, unreliable and high
+            latency.</p>
+
+            <p>The overall objective of the workshop is gather global experts on
+            marine robotics navigation and identify areas of particular promise
+            to overcome these challenges. Similar recent workshops on marine
+            robotics have focused on control and autonomy but largely
+            sidestepped the problem of navigation and localization.</p>
+
+            <ul>
+              <li>New technologies and algorithms for cheaper / better marine
+              vehicle navigation</li>
+              <li>Marine robot perception and mapping Simultaneous
+              localization and mapping in marine environments</li> 
+              <li>Cooperative localization in marine environments Marine robot
+              belief space planning</li>
+              <li>Demonstrations of advanced navigation and localization in the
+              field-particularly in the case of long-term or multi-robot
+              experiments.</li>
+            </ul>
+
+        </div> 
+      </div>
+
+      <!--program-->
+      <div class="row page-header">
+        <div class="col-sm-12">
+          <h2 id="program" style="padding-top: 70px; margin-top: -70px;">Program</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <table>
+              <tr bgcolor="#DDDDDD">
+                  <td>Time</td>
+                  <td>Activity</td>
+              </tr>
+              <tr>
+                  <td>15 minutes</td>
+                  <td>Welcome</td>
+              </tr>
+              <tr>
+                  <td>45 minutes</td>
+                  <td>John Leonard</br>
+                  <i>A Historical Perspective on Autonomous Underwater Vehicle
+                      Navigation</i></br>
+                  <b>Abstract:</b>This talk will provide a concise historical
+                  review of major approaches to Autonomous Underwater Vehicle
+                  navigation, with a focus on recent progress and open research
+                  questions, such as navigation in polar regions and close-range
+                  operations for intervention and inspection tasks. We will
+                  review the major sensing modalities (acoustic beacons,
+                  INS/DVL, sonar, vision) and the major inference techniques
+                  (filtering and pose graph optimization). We will also survey
+                  major applications including surveillance, inspection,
+                  environmental monitoring, and intervention.
+                  </td>
+              </tr>
+              <tr>
+                  <td>45 minutes</td>
+                  <td>James Kinsey</br>
+                  <i>Toward Low-Cost, Long-Duration Underwater Navigation:
+                      Recent Sensing and Algorithms Advances and Applying them
+                      to Future Ocean Missions</i></br>
+                  <b>Abstract:</b> Advances in sensing and state estimation have
+                  previously transformed how we operate robots in the underwater
+                  domain and enabled previously unachievable missions. For
+                  example, the emergence of Doppler Velocity Logs and
+                  Fiber-optic Gyroscopes in the late 1990s revolutionized
+                  science, military, commercial, and archaeology applications in
+                  the underwater domain. This talk builds on the spirit of these
+                  prior successes by highlighting more recent advances in
+                  underwater localization that emphasize both new sensing
+                  modalities, such as MEMS sensors and acoustic modems, and new
+                  algorithmic methods. The emphasis will be on methods that
+                  improve the localization of low-cost underwater robots, extend
+                  the endurance of deep-diving long-range AUVs, or enable us to
+                  operate in extremely remote environs (such as the Arctic
+                  Ocean).
+                  </td>
+              </tr>
+              <tr>
+                  <td>45 minutes</td>
+                  <td>Stefan Williams</br>
+                  <i>Title of talk</i></br>
+                  <b>Abstract:</b>
+                  </td>
+              </tr>
+              <tr>
+                  <td>20 minutes</td>
+                  <td>Poster spotlights</td>
+              </tr>
+              <tr>
+                  <td>45 minutes</td>
+                  <td>Coffee break/Poster session</td>
+              </tr>
+              <tr>
+                  <td>45 minutes</td>
+                  <td>Rafael Garcia</br>
+                  <i>Challenges for underwater perception and mapping using
+                      computer vision</i></br>
+                  <p><b>Abstract:</b>The characteristics of the underwater
+                  environment offer several challenges for using off-the-shelf
+                  computer vision, mainly due to the significant attenuation and
+                  scattering of visible light. Commonly, the underwater images
+                  acquired by a robot suffer from lack of contrast, blurring and
+                  strong moving shadows from artificial illumination. Moreover,
+                  light attenuation does not allow images to be taken from a
+                  large distance.</p>
+
+                  <p>However, using the convenient image enhancement techniques,
+                  and under the adequate circumstances, we can successfully
+                  restore underwater images, thus enabling the possibility of
+                  using them for perception and mapping. In this talk we will
+                  see how to overcome the different problems associated to the
+                  interaction between light and water to successfully explore
+                  and map unknown areas of the seafloor.</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>45 minutes</td>
+                  <td>Michael Kaess</br>
+                  <i>Localization and Mapping in Confined Areas with a Hovering
+                      AUV</i></br>
+                  <b>Abstract:</b>
+                  </td>
+              </tr>
+              <tr>
+                  <td>30 minutes</td>
+                  <td>Discussion/Concluding remarks</br>
+                  </td>
+              </tr>
+          </table>
+
+          <p>All talks include 10 minutes for questions.</p>
+        </div> 
+      </div>
+
+      <!--speakers-->
+      <div class="row page-header">
+        <div class="col-sm-12">
+          <h2 id="speakers" style="padding-top: 70px; margin-top: -70px;">Speakers</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <p><b>James Kinsey</b>, Woods Hole Oceanographic Institution</p>
+            <p><b>John Leonard</b>, Massachusetts Institute of Technology</p>
+            <p><b>Stefan Williams</b>, Australian Centre for Field Robotics, University of Sydney</p>
+            <p><b>Rafael Garcia</b>, University of Girona</p>
+            <p><b>Michael Kaess</b>, Carnegie Mellon University</p>
+        </div> 
+      </div>
+
+      <!--posters-->
+      <div class="row page-header">
+        <div class="col-sm-12">
+          <h2 id="posters" style="padding-top: 70px; margin-top: -70px;">Posters</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <p>We are soliciting extended abstracts/full papers describing novel
+            work in robot marine systems. Accepted submissions will give
+            a short spotlight talk and present their work in poster format.
+            Teledyne Marine has generously sponsored the poster competition and
+            is offering $500 (USD) for first prize.</p>
+
+            <p>Papers may be emailed to the orgainizers. Submissions should
+            conform to standard ICRA formatting. Accepted papers will be
+            published on the workshop website.</p>
+
+            <p><a href="http://www.teledynemarine.com"><img
+            src="imgs/teledynemarine.jpg" alt="Teledyne Marine"></a></p>
+        </div> 
+      </div>
+
+      <!--Contact-->
+      <div class="row page-header">
+        <div class="col-sm-12">
+          <h2 id="contact" style="padding-top: 70px; margin-top: -70px;">Contact</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <p>Liam Paull, MIT</br>
+            Email: lpaull@csail.mit.edu</br>
+            <a href="http://people.csail.mit.edu/lpaull/">Web</a></p>
+
+            <p>Jeff Walls, University of Michigan</br>
+            Email: jmwalls@umich.edu</br>
+            <a href="http://robots.engin.umich.edu/~jmwalls">Web</a></p>
+
+            <p>James Kinsey, Woods Hole Oceanographic Institution</br>
+            Email: jkinsey@whoi.edu</br>
+            <a href="http://www.whoi.edu/website/jkinsey/">Web</a></p>
+        </div> 
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
