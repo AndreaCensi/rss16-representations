@@ -63,7 +63,7 @@
         <p style="color: white;">.</p>
 
         <figure>
-            <img src="rss_logo.png" width="35%"></a>
+            <img src="rss_logo.png" width="35%">
         </figure>
 
 
@@ -79,7 +79,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-	  <p>This workshop brings together researchers from robotics, computer vision, computer graphics, machine learning, and AI, to discuss fundamental questions in robot perception: how should a robot represent the world? How can we design the best possible representation for a specific task? How can we unify geometric reconstruction and semantic mapping? Robotic perception has been so far dominated by mapping algorithms that build primitive geometric representations of the environment like occupancy grids, meshes, or point clouds. While the community has made great progress in making 3D reconstruction work in real world problems, current algorithms and representations are still unable to capture high-level structure in the environment. Existing mapping algorithms do not take into account the physics of the scene (e.g., pedestrians in a crowd typically walk on the ground, rather than fly), and decouple scene reconstruction from scene understanding, while a unified approach would be largely beneficial (e.g., identifying objects helps reasoning about their relations). The use of more expressive representations would impact many open problems including map compressions for long term navigation, robust data association, human robot interaction, and object manipulation. This workshop aims to bring forward the latest breakthroughs and cutting edge research on robot perception and map representations, and identify challenges and future research directions for the community. 
+	  <p>This workshop brings together researchers from robotics, computer vision, computer graphics, machine learning, and AI, to discuss fundamental questions in robot perception: how should a robot represent the world? How can we design the best possible representation for a specific task? How can we unify geometric reconstruction and semantic mapping? Robotic perception has been so far dominated by mapping algorithms that build primitive geometric representations of the environment like occupancy grids, meshes, or point clouds. While the community has made great progress in making 3D reconstruction work in real world problems, current algorithms and representations are still unable to capture high-level structure in the environment. Existing mapping algorithms do not take into account the physics of the scene (e.g., pedestrians in a crowd typically walk on the ground, rather than fly), and decouple scene reconstruction from scene understanding, while a unified approach would be largely beneficial (e.g., identifying objects helps reasoning about their relations). The use of more expressive representations would impact many open problems including map compressions for long term navigation, robust data association, human robot interaction, and object manipulation. This workshop aims to bring forward the latest breakthroughs and cutting edge research on robot perception and map representations, and identify challenges and future research directions for the community.
 	 </p>
           <p><b>Workshop structure:</b> We seek to answer these questions by identifying current key issues related to representation in robotics, and bringing researchers from other communities working on related topics such as scene understanding and representation itself that can provide tools to address those issues. Therefore, we plan to have invited speakers from two distinct groups: representation <b><i>users</i></b> and representation <b><i>providers</i></b> (see illustration below). Representation users are roboticists working on topics that could greatly benefit from more useful environment representations, like robotic navigation, manipulation, artificial intelligence, autonomous driving, or large-scale mapping. In turn, representation providers are researchers from fields such as computer vision, computational geometry and computer graphics, or machine learning.</p>
 
@@ -91,7 +91,7 @@
         <p>Join our discussions on our G+ community: <a href="https://plus.google.com/communities/102832228492942322585">The Problem of Mobile Sensors: Representations, Physics, and Scene Understanding for Robotics</a></p>
 
 	<div class="g-community" data-width="340" data-href="https://plus.google.com/communities/102832228492942322585" data-layout="landscape"></div>
-        </div> 
+        </div>
       </div>
 
 
@@ -102,6 +102,7 @@
           <h2 id="keynotes" style="padding-top: 70px; margin-top: -70px;">Keynotes</h2>
         </div>
       </div>
+	  <!--
       <div class="row">
         <div class="col-sm-12">
             <p><b>Dieter Fox</b>, University of Washington</p>
@@ -111,9 +112,55 @@
             <p><b>Ashutosh Saxena</b>, Cornell University and Stanford University</p>
             <p><b>John Laird</b>, University of Michigan</p>
             <p><b>Ingmar Posner</b>, University of Oxford</p>
-        </div> 
+        </div>
       </div>
-
+	  -->
+      <div class="row">
+        <div class="col-sm-12">
+		    <table>
+			  <tr>
+				<td><img src="images/fox.jpg" width="150px"></td>
+				<td><b>Dieter Fox</b>, University of Washington<br><i>Learning Intuitive Physics Models for Robots</i><br>The predominant approach to robot manipulation and related tasks is to use physics-based shape and interaction models of the robot, the environment, and the objects therein. While such models are well suited for trajectory planning and reasoning about the forces necessary to achieve certain goals, they require many quantities to be estimated from perceptual data, such as the location and mass of objects, surface frictions, and accurate 3D shape.  People, on the other hand, have an intuitive understanding of how things evolve over time and how to achieve certain changes. While this intuitive understanding might not be as accurate as computer-based physics models, it is fully grounded in a person's perceptual experience and therefore well suited for closed-loop control. In this talk I will discuss some thoughts and preliminary results on the challenges and possible benefits of learning and using intuitive physics models for robots.</td>
+			  </tr>
+			  <tr height="20px"></tr>
+			  <tr>
+				<td><img src="images/konidaris.jpg" width="150px"></td>
+				<td><b>George Konidaris</b>, Duke University<br><!--<br><i>TITLE</i><br>ABSTRACT.--></td>
+			  </tr>
+			  <tr height="20px"></tr>
+			  <tr>
+				<td><img src="images/brock.jpg" width="150px"></td>
+				<td><b>Oliver Brock</b>, TU Berlin<br><i>„Geometry is dead”</i><br>Hanif Kara said „Geometry is dead.” He refers to architecture and structural engineering.  In architecture (and computer graphics), researchers explore two alternatives to geometry: one with increased representational expressiveness (parametric surfaces) and one with minimalistic expressiveness (points). I think that in robotics we also started with geometry and recently turned to point clouds as an alternative. I will advocate that we should also explore the parametric route. By “parametric” I do not mean super-quadrics or things like that.  I mean parametric relationships in the combined space of action and sensor signals. I will argue that these relationships provide the most natural and adequate representations for manipulation actions and very naturally lead to competent robot manipulation and perception.</td>
+			  </tr>
+			  <tr height="20px"></tr>
+			  <tr>
+				<td><img src="images/abbeel.png" width="150px"></td>
+				<td><b>Pieter Abbeel</b>, UCBerkeley<br><i>End-to-End Deep Learning of Representations for Robotics</i><br>Deep learning has enabled significant advances in supervised learning
+problems such as speech recognition and visual recognition.  One of the
+key characteristics of these advances is their end-to-end nature: a deep 
+neural net is trained to map all the way from raw sensory inputs to classification.
+In this talk I will highlight some recent results in end-to-end learning of
+representations with direct applications in robotics: state estimation, 
+visuomotor policies for manipulation and for flight, and inverse optimal control.</td>
+			  </tr>
+			  <tr height="20px"></tr>
+			  <tr>
+				<td><img src="images/saxena.jpg" width="150px"></td>
+				<td><b>Ashutosh Saxena</b>, Cornell University and Stanford University<!--<br><i>TITLE</i><br>ABSTRACT.--></td>
+			  </tr>
+			  <tr height="20px"></tr>
+			  <tr>
+				<td><img src="images/laird.jpg" width="150px"></td>
+				<td><b>John Laird</b> (presenting joint work with Aaron Mininger), University of Michigan<br><i>Integrating a Cognitive Architecture with Real-world Perception</i><br>A common pattern for perception in a robotic cognitive system is for a perceptual component to do its processing and produce a world state as input to a component responsible for the high-level reasoning, planning, and decision-making. This black-box approach to perception makes it difficult for the agent to handle errors or noise in its input, or to use its knowledge about the world to aid perception. In this work, we explore endowing a symbolic cognitive architecture (Soar) with a continuous spatial memory, so that an agent implemented in Soar can deliberately reason over perceptual updates and unifying them with an internal self-maintained world representation. During this unification, the agent brings to bear information from disparate sources including action knowledge, procedural knowledge, environmental regularities, and human interaction. Through experiments in a real-world robotic domain we show how the agent is robust to environmental noise and perceptual errors while tracking objects as it interacts with them, and how more knowledge available to the agent leads to better performance.</td>
+			  </tr>
+			  <tr height="20px"></tr>
+			  <tr>
+				<td><img src="images/posner.jpg" width="150px"></td>
+				<td><b>Ingmar Posner</b>, University of Oxford<!--<br><i>TITLE</i><br>ABSTRACT.--></td>
+			  </tr>
+			</table>
+        </div>
+      </div>
 
 
       <!--papers/posters-->
@@ -123,23 +170,34 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12">            
+        <div class="col-sm-12">
             <ul>
-            <li>Helen Oleynikova, Alex Millane, Zachary Taylor, Enric Galceran, Juan Nieto, and Roland Siegwart:<br /><a href="papers/BeyondGeometryRSSW16_2_CameraReadySubmission_Oleynikova.pdf">Signed Distance Fields: A Natural Representation for Both Mapping and Planning</a></li>
-            <li>Lina Maria Paz, Tarlan Suleymanov, Pedro Piniés, Geoff Hester, and Paul Newman:<br /><a href="papers/BeyondGeometryRSSW16_3_CameraReadySubmission_Paz.pdf">On-line Scene Understanding for Closed Loop Control</a></li>
-            <li>Michael Tanner, Pedro Piniés, Lina Maria Paz, and Paul Newman:<br /><a href="papers/BeyondGeometryRSSW16_4_CameraReadySubmission_Tanner.pdf">Keep Geometry in Context: Using Contextual Priors for Very-Large-Scale 3D Dense Reconstructions</a></li>
-            <li>Tomasz Piotr Kucner, Martin Magnusson, Erik Schaffernicht, Victor Hernandez Bennetts, and Achim J. Lilienthal:<br /><a href="papers/BeyondGeometryRSSW16_5_CameraReadySubmission_Kucner.pdf">Tell me about dynamics! Mapping velocity fields from sparse samples with Semi-Wrapped Gaussian Mixture Models</a></li>
-            <li>Marcin Dymczyk, Igor Gilitschenski, Roland Siegwart, and Elena Stumm:<br /><a href="papers/BeyondGeometryRSSW16_6_CameraReadySubmission_Dymczyk.pdf">Map Summarization for Tractable Lifelong Mapping</a></li>
-            <li>Kevin Eckenhoff, Liam Paull, and Guoquan Huang:<br /><a href="papers/BeyondGeometryRSSW16_7_CameraReadySubmission_Eckenhoff.pdf">Decoupled, Consistent Node Removal and Edge Sparsification for Graph-based SLAM</a></li>
-            <li>Benjamin Burchfiel and George Konidaris:<br /><a href="papers/BeyondGeometryRSSW16_8_CameraReadySubmission_Burchfiel.pdf">Generalized 3D Object Representation using Bayesian Eigenobjects</a></li>
-            <li>Md. Alimoor Reza and Jana Košecká:<br /><a href="papers/BeyondGeometryRSSW16_9_CameraReadySubmission_Reza.pdf">Reinforcement Learning for Semantic Segmentation in Indoor Scenes</a></li>
-            <li>Lawson L.S. Wong:<br /><a href="papers/BeyondGeometryRSSW16_10_CameraReadySubmission_Wong.pdf">Object-based World Modeling for Mobile-Manipulation Robots</a></li>
-            <li>Karthik Desingh, Mehran Maghoumi, Odest Chadwicke Jenkins, Joseph J. LaViola and Lionel Reveret:<br /><a href="papers/BeyondGeometryRSSW16_13_CameraReadySubmission_Desingh.pdf">Object Manipulation in Cluttered Scenes Informed by Physics and Sketching</a></li>
-            <li>John Oberlin and Stefanie Tellex:<br /><a href="papers/BeyondGeometryRSSW16_14_CameraReadySubmission_Oberlin.pdf">Time-Lapse Light Field Photography With a 7 DoF Arm</a></li>
-			<li style="color: white;" />
+            <li>Helen Oleynikova, Alex Millane, Zachary Taylor, Enric Galceran, Juan Nieto, and Roland Siegwart:<br />
+            <a href="papers/BeyondGeometryRSSW16_2_CameraReadySubmission_Oleynikova.pdf">Signed Distance Fields: A Natural Representation for Both Mapping and Planning</a></li>
+            <li>Lina María Paz, Tarlan Suleymanov, Pedro Piniés, Geoff Hester, and Paul Newman:<br />
+            <a href="papers/BeyondGeometryRSSW16_3_CameraReadySubmission_Paz.pdf">On-line Scene Understanding for Closed Loop Control</a></li>
+            <li>Michael Tanner, Pedro Piniés, Lina María Paz, and Paul Newman:<br />
+            <a href="papers/BeyondGeometryRSSW16_4_CameraReadySubmission_Tanner.pdf">Keep Geometry in Context: Using Contextual Priors for Very-Large-Scale 3D Dense Reconstructions</a></li>
+            <li>Tomasz Piotr Kucner, Martin Magnusson, Erik Schaffernicht, Victor Hernandez Bennetts, and Achim J. Lilienthal:<br />
+            <a href="papers/BeyondGeometryRSSW16_5_CameraReadySubmission_Kucner.pdf">Tell me about dynamics! Mapping velocity fields from sparse samples with Semi-Wrapped Gaussian Mixture Models</a></li>
+            <li>Marcin Dymczyk, Igor Gilitschenski, Roland Siegwart, and Elena Stumm:<br />
+            <a href="papers/BeyondGeometryRSSW16_6_CameraReadySubmission_Dymczyk.pdf">Map Summarization for Tractable Lifelong Mapping</a></li>
+            <li>Kevin Eckenhoff, Liam Paull, and Guoquan Huang:<br />
+            <a href="papers/BeyondGeometryRSSW16_7_CameraReadySubmission_Eckenhoff.pdf">Decoupled, Consistent Node Removal and Edge Sparsification for Graph-based SLAM</a></li>
+            <li>Benjamin Burchfiel and George Konidaris:<br />
+            <a href="papers/BeyondGeometryRSSW16_8_CameraReadySubmission_Burchfiel.pdf">Generalized 3D Object Representation using Bayesian Eigenobjects</a></li>
+            <li>Md. Alimoor Reza and Jana Košecká:<br />
+            <a href="papers/BeyondGeometryRSSW16_9_CameraReadySubmission_Reza.pdf">Reinforcement Learning for Semantic Segmentation in Indoor Scenes</a></li>
+            <li>Lawson L.S. Wong:<br />
+            <a href="papers/BeyondGeometryRSSW16_10_CameraReadySubmission_Wong.pdf">Object-based World Modeling for Mobile-Manipulation Robots</a></li>
+            <li>Karthik Desingh, Mehran Maghoumi, Odest Chadwicke Jenkins, Joseph J. LaViola, and Lionel Reveret:<br />
+            <a href="papers/BeyondGeometryRSSW16_13_CameraReadySubmission_Desingh.pdf">Object Manipulation in Cluttered Scenes Informed by Physics and Sketching</a></li>
+            <li>John Oberlin and Stefanie Tellex:<br />
+            <a href="papers/BeyondGeometryRSSW16_14_CameraReadySubmission_Oberlin.pdf">Time-Lapse Light Field Photography With a 7 DoF Arm</a></li>
+            <li style="color: white;" />
             </ul>
 
-        </div> 
+        </div>
       </div>
 
 
@@ -154,7 +212,7 @@
         <div class="col-sm-12">
           <p>The morning session focuses on representation users, while the afternoon session focuses on representation providers (as defined above).
 	  </p>
-        	
+
           <table>
               <tr bgcolor="#DDDDDD">
                   <td>Time</td>
@@ -166,12 +224,12 @@
               </tr>
               <tr>
                   <td>9:05 - 9:35</td>
-                  <td> Keynote #1 - Dieter Fox
+                  <td> Keynote #1 - <b>Dieter Fox</b>
                   </td>
               </tr>
               <tr>
                   <td>9:35 - 10:05</td>
-                  <td> Keynote #2 - Ingmar Posner
+                  <td> Keynote #2 - <b>Ingmar Posner</b>
                   </td>
               </tr>
               <tr>
@@ -186,19 +244,19 @@
               </tr>
               <tr>
                   <td>11:00 - 11:30</td>
-                  <td> Keynote #3 - George Konidaris
+                  <td> Keynote #3 - <b>George Konidaris</b>
                   </td>
               </tr>
               <tr>
                   <td>11:30 - 12:00</td>
-                  <td> Keynote #4 - Ashutosh Saxena
+                  <td> Keynote #4 - <b>Ashutosh Saxena</b>
                   </td>
               </tr>
               <tr>
                   <td>12:00 - 12:15</td>
                   <td> Morning Wrap-up
                   </td>
-              </tr> 
+              </tr>
               <tr>
                   <td>12:15 - 2:00</td>
                   <td> LUNCH
@@ -206,12 +264,12 @@
               </tr>
               <tr>
                   <td>2:00 - 2:30</td>
-                  <td> Keynote #5 - John Laird
+                  <td> Keynote #5 - <b>John Laird</b>
                   </td>
               </tr>
               <tr>
                   <td>2:30 - 3:00</td>
-                  <td> Keynote #6 - Oliver Brock
+                  <td> Keynote #6 - <b>Oliver Brock</b>
                   </td>
               </tr>
               <tr>
@@ -226,16 +284,16 @@
               </tr>
               <tr>
                   <td>4:00 - 4:30</td>
-                  <td> Keynote #7 - Pieter Abbeel
+                  <td> Keynote #7 - <b>Pieter Abbeel</b>
                   </td>
               </tr>
               <tr>
                   <td>4:30 - 5:30</td>
-                  <td> Panel Discussion
+                  <td> Panel Discussion. Guest moderator: <b>Edwin Olson</b>
                   </td>
               </tr>
           </table>
-        </div> 
+        </div>
       </div>
 
 
@@ -257,9 +315,9 @@
             <p>Submissions should conform to standard RSS formatting, up to 6 pages
             excluding references. Accepted papers will be published on the workshop
             website.</p>
-            
+
             <p>Suitable topics include, but are not limited to:</p>
-            
+
             <ul>
             <li>New environment and map representations</li>
             <li>Map summarization / map compression for long-term navigation</li>
@@ -270,9 +328,9 @@
             <li>Continuous or alternative map and trajectory representations</li>
             </ul>
 
-        </div> 
+        </div>
       </div>
-      
+
 
       <!--Important dates-->
       <div class="row page-header">
@@ -286,10 +344,10 @@
             <p><b>Acceptance Notification:</b> <strike>May 20, 2016</strike> <b>May 23, 2016</b></p>
             <p><b>Camera-ready Papers Due:</b> June 3, 2016</p>
             <p><b>Workshop:</b> June 19, 2016</p>
-        </div> 
+        </div>
       </div>
-      
-      
+
+
       <!--program committee-->
       <div class="row page-header">
         <div class="col-sm-12">
@@ -301,18 +359,16 @@
             <p><b>Jason Stack</b>, ONR Program Manager </p>
             <p><b>John McDonald</b>, Maynooth University </p>
             <p><b>Yasir Latif</b>, The University of Adelaide </p>
-            <!--<p><b>Viorela Ila</b>, Australian National University </p>-->
             <p><b>Jeff Walls</b>, University of Michigan </p>
             <p><b>Alejandro Rituerto</b>, The Smith-Kettlewell Eye Research Institute </p>
             <p><b>Andreas Geiger</b>, Max Planck Institute </p>
             <p><b>Sunando Sengupta</b>, Vicon Motion Capture Systems </p>
             <p><b>Pedro Piniés</b>, University of Oxford </p>
-            <!--<p><b>Davide Scaramuzza</b>, University of Zurich </p>-->
             <p><b>Lina M. Paz</b>, University of Oxford </p>
             <p><b>Elena Stumm</b>, ETH Zurich </p>
-        </div> 
+        </div>
       </div>
-      
+
       <!--Contact-->
       <div class="row page-header">
         <div class="col-sm-12">
@@ -339,9 +395,9 @@
             <p>Cesar Cadena, ETH Zurich</br>
             Email: cesarc@ethz.ch</br>
             <a href="http://cs.adelaide.edu.au/~cesar/">Web</a></p>
-        </div> 
+        </div>
       </div>
-      
+
 
     </div><!-- /.container -->
 
